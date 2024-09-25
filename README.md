@@ -65,19 +65,19 @@ cd french_number_converter
 
 ### use of llm
 Here we have the prompt command i used on Llama 3.1 8B (i try it because it's the only one i have my local computer, and i wanted to make a comparaison with mistral, but time is missing for me)
-#### at the begining
+#### 1. at the begining
 `create a dictionnary of the number bellow with Constants in UPPERCASE`
-#### for the code(loop)
+#### 2. for the code(loop)
 `create a converts numbers definition from 20 to 99 into their French word representation with the dictionnary below`
-#### after creating the code
+#### 3. after creating the code
 `On the code below, give me an optimize method to do the same result`
-#### for the loop
+#### 4. for the loop
 `with the code below, give me a code able to a perform 100 comparisons with 48 random numbers each time taken between 0 and 999999`
 #### for the both code
 `to this code, add docstring`
-#### on the pythons files
+#### 5. on the pythons files
 `add me some logging`
-#### on the plot
+#### 6. on the plot
 `improve readability of this plot`
 
 
